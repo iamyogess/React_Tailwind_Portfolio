@@ -3,7 +3,7 @@ import React from 'react'
 const Introduction = () => {
   return (
     <div>
-        <div className="line flex justify-center flex-col items-center">
+        <div className="line flex justify-center flex-col items-center px-2">
             <div className='h-[120px] border-r-[1px] mt-[-2px] z-0'></div>
             <div className="dot w-[5px] h-[5px] bg-green-400 rounded-full"></div>
             <h2 className='mt-5 text-black font-medium text-[13px] tracking-widest'>HELLO! MY NAME IS</h2>

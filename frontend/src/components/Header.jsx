@@ -20,8 +20,8 @@ const Header = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-between w-screen border-b-[2px]">
-      <div className="w-[90px] h-[90px] bg-black">
+    <div className="flex items-center fixed bg-white justify-between w-screen border-b-[2px]">
+      <div className="w-[90px] h-[90px] bg-black ">
         <span className="text-white text-center flex items-center justify-center p-7 cursor-pointer">
           LoGo
         </span>
