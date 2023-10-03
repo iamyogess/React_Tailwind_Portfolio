@@ -6,6 +6,7 @@ import ProfilePic from "./components/ProfilePic";
 import Introduction from "./components/Introduction";
 import About from "./components/About";
 import Services from "./components/Services";
+import ProgressBar from "./components/ProgressBar";
 
 const App = () => {
   return (
@@ -15,10 +16,11 @@ const App = () => {
       <div className="ml-[90px] grid grid-cols-1 md:grid-cols-3">
         <div className="col-span-2 text-black">
           <Introduction />
-          <About/>
-          <Services/>
+          <About />
+          <Services />
         </div>
         <div className="col-span-1 text-black hidden md:block">
+          <ProgressBar />
           <ProfilePic />
         </div>
       </div>
